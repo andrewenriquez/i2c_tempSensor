@@ -194,7 +194,7 @@ void sendData(unsigned char address, unsigned char data){
         break;
 
       case stop:
-
+        Serial.println("stop state");
         if(twi_status == 0x30){ // data sent and NOT ACK Received
           
           Serial.println("0x30: data sent and NOT ACK Received");

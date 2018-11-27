@@ -41,7 +41,7 @@ sendData(0x18, 0x03);
 Serial.begin(9600);
   while (1) {
    delayMs(1000);
-   ADXL_I2C(0x18, 0x05);
+   //ADXL_I2C(0x18, 0x05);
    delayMs(1000);
    //ADXL_I2C(0x18, 0x03);
    
